@@ -63,18 +63,19 @@ namespace Proyecto_Final.Forms
             Cb_Semestre.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[1].Value.ToString();
             Cb_Turno.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[2].Value.ToString();
             Cb_Grupo.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[4].Value.ToString();
-            Cb_Materia.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[5].Value.ToString();
-            Cb_Prof.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[6].Value.ToString();
-            CB_LunesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[7].Value.ToString();
-            CB_LunesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[8].Value.ToString();
-            CB_MartesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[9].Value.ToString();
-            CB_MartesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[10].Value.ToString();
-            CB_MiercolesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[11].Value.ToString();
-            CB_MiercolesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[12].Value.ToString();
-            CB_JuevesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[13].Value.ToString();
-            CB_JuevesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[14].Value.ToString();
-            CB_ViernesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[15].Value.ToString();
-            CB_ViernesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[16].Value.ToString();
+            Txt_Salon.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[5].Value.ToString();
+            Cb_Materia.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[6].Value.ToString();
+            Cb_Prof.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[7].Value.ToString();
+            CB_LunesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[8].Value.ToString();
+            CB_LunesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[9].Value.ToString();
+            CB_MartesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[10].Value.ToString();
+            CB_MartesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[11].Value.ToString();
+            CB_MiercolesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[12].Value.ToString();
+            CB_MiercolesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[13].Value.ToString();
+            CB_JuevesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[14].Value.ToString();
+            CB_JuevesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[15].Value.ToString();
+            CB_ViernesI.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[16].Value.ToString();
+            CB_ViernesF.Text = Dgv_Clases.Rows[RenglonSeleccionado].Cells[17].Value.ToString();
             IdMateria();
             IdProfe();
 
@@ -348,6 +349,7 @@ namespace Proyecto_Final.Forms
                         }
                         if(i != -2)
                         {
+                            clase.Salon = Txt_Salon.Text;
                             clase.IdClase = clase.Grupo + Lbl_IdMateria.Text;
                             clase.LunesI = CB_LunesI.Text;
                             clase.LunesF = CB_LunesF.Text;
@@ -471,6 +473,7 @@ namespace Proyecto_Final.Forms
                             }
                             if (i != -2)
                             {
+                                clase.Salon = Txt_Salon.Text;
                                 clase.IdClase = clase.Grupo + Lbl_IdMateria.Text;
                                 clase.LunesI = CB_LunesI.Text;
                                 clase.LunesF = CB_LunesF.Text;
@@ -483,7 +486,7 @@ namespace Proyecto_Final.Forms
                                 clase.ViernesI = CB_ViernesI.Text;
                                 clase.ViernesF = CB_ViernesF.Text;
                                 clase.NumGrupo = Convert.ToString(Cb_Materia.SelectedIndex + 1);
-                                if(Dgv_Clases.Rows[RenglonSeleccionado].Cells[6].Value.ToString() != clase.Profesor)
+                                if(Dgv_Clases.Rows[RenglonSeleccionado].Cells[7].Value.ToString() != clase.Profesor)
                                 {
                                     Profesores profesores = new Profesores();
                                     DataTable data = clases_SQL.LlenaComboProfes(Dgv_Clases.Rows[RenglonSeleccionado].Cells[1].Value.ToString(), Dgv_Clases.Rows[RenglonSeleccionado].Cells[2].Value.ToString());
@@ -509,7 +512,7 @@ namespace Proyecto_Final.Forms
                                     profesores_SQL.Sumar_Restar_Clase(profesores);
 
                                 }
-                                if(Dgv_Clases.Rows[RenglonSeleccionado].Cells[5].Value.ToString() != clase.Materia)
+                                if(Dgv_Clases.Rows[RenglonSeleccionado].Cells[6].Value.ToString() != clase.Materia)
                                 {
                                     Materias materias = new Materias();
                                     Materias_SQL materias_SQL = new Materias_SQL();

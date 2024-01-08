@@ -29,5 +29,6 @@ namespace Proyecto_Final.Clases
         public string Hora { get; set; }
         public string Dia { get; set; }
         public string Clases { get; set;}
+        public string Salon { get; set; }
     }
 }

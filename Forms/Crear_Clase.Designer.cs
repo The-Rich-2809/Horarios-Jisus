@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.Gb_Datos = new System.Windows.Forms.GroupBox();
+            this.Lbl_IdProfe = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.Cb_Grupo = new System.Windows.Forms.ComboBox();
             this.Gb_Horario = new System.Windows.Forms.GroupBox();
@@ -66,7 +67,8 @@
             this.Btn_Modificar = new System.Windows.Forms.Button();
             this.Btn_Agregar = new System.Windows.Forms.Button();
             this.Dgv_Clases = new System.Windows.Forms.DataGridView();
-            this.Lbl_IdProfe = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.Txt_Salon = new System.Windows.Forms.TextBox();
             this.Gb_Datos.SuspendLayout();
             this.Gb_Horario.SuspendLayout();
             this.Gb_Acciones.SuspendLayout();
@@ -75,6 +77,8 @@
             // 
             // Gb_Datos
             // 
+            this.Gb_Datos.Controls.Add(this.Txt_Salon);
+            this.Gb_Datos.Controls.Add(this.label8);
             this.Gb_Datos.Controls.Add(this.Lbl_IdProfe);
             this.Gb_Datos.Controls.Add(this.label7);
             this.Gb_Datos.Controls.Add(this.Cb_Grupo);
@@ -88,19 +92,31 @@
             this.Gb_Datos.Controls.Add(this.label5);
             this.Gb_Datos.Controls.Add(this.label4);
             this.Gb_Datos.Controls.Add(this.Cb_Semestre);
-            this.Gb_Datos.Location = new System.Drawing.Point(26, 498);
+            this.Gb_Datos.Location = new System.Drawing.Point(23, 398);
+            this.Gb_Datos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Gb_Datos.Name = "Gb_Datos";
-            this.Gb_Datos.Size = new System.Drawing.Size(879, 294);
+            this.Gb_Datos.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Gb_Datos.Size = new System.Drawing.Size(781, 235);
             this.Gb_Datos.TabIndex = 21;
             this.Gb_Datos.TabStop = false;
             this.Gb_Datos.Text = "Datos de la Clase";
             // 
+            // Lbl_IdProfe
+            // 
+            this.Lbl_IdProfe.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Lbl_IdProfe.Location = new System.Drawing.Point(276, 76);
+            this.Lbl_IdProfe.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_IdProfe.Name = "Lbl_IdProfe";
+            this.Lbl_IdProfe.Size = new System.Drawing.Size(50, 18);
+            this.Lbl_IdProfe.TabIndex = 23;
+            this.Lbl_IdProfe.Text = "label7";
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(212, 157);
+            this.label7.Location = new System.Drawing.Point(188, 126);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 20);
+            this.label7.Size = new System.Drawing.Size(44, 16);
             this.label7.TabIndex = 22;
             this.label7.Text = "Grupo";
             // 
@@ -114,9 +130,10 @@
             "4",
             "5",
             "6"});
-            this.Cb_Grupo.Location = new System.Drawing.Point(216, 180);
+            this.Cb_Grupo.Location = new System.Drawing.Point(192, 144);
+            this.Cb_Grupo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Cb_Grupo.Name = "Cb_Grupo";
-            this.Cb_Grupo.Size = new System.Drawing.Size(121, 28);
+            this.Cb_Grupo.Size = new System.Drawing.Size(108, 24);
             this.Cb_Grupo.TabIndex = 21;
             // 
             // Gb_Horario
@@ -138,9 +155,11 @@
             this.Gb_Horario.Controls.Add(this.ChB_Miercoles);
             this.Gb_Horario.Controls.Add(this.ChB_Lunes);
             this.Gb_Horario.Controls.Add(this.ChB_Martes);
-            this.Gb_Horario.Location = new System.Drawing.Point(410, 38);
+            this.Gb_Horario.Location = new System.Drawing.Point(364, 30);
+            this.Gb_Horario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Gb_Horario.Name = "Gb_Horario";
-            this.Gb_Horario.Size = new System.Drawing.Size(434, 221);
+            this.Gb_Horario.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Gb_Horario.Size = new System.Drawing.Size(386, 177);
             this.Gb_Horario.TabIndex = 20;
             this.Gb_Horario.TabStop = false;
             this.Gb_Horario.Text = "Horario";
@@ -148,89 +167,100 @@
             // CB_ViernesF
             // 
             this.CB_ViernesF.FormattingEnabled = true;
-            this.CB_ViernesF.Location = new System.Drawing.Point(277, 180);
+            this.CB_ViernesF.Location = new System.Drawing.Point(246, 144);
+            this.CB_ViernesF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_ViernesF.Name = "CB_ViernesF";
-            this.CB_ViernesF.Size = new System.Drawing.Size(121, 28);
+            this.CB_ViernesF.Size = new System.Drawing.Size(108, 24);
             this.CB_ViernesF.TabIndex = 69;
             // 
             // CB_ViernesI
             // 
             this.CB_ViernesI.FormattingEnabled = true;
-            this.CB_ViernesI.Location = new System.Drawing.Point(141, 180);
+            this.CB_ViernesI.Location = new System.Drawing.Point(125, 144);
+            this.CB_ViernesI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_ViernesI.Name = "CB_ViernesI";
-            this.CB_ViernesI.Size = new System.Drawing.Size(121, 28);
+            this.CB_ViernesI.Size = new System.Drawing.Size(108, 24);
             this.CB_ViernesI.TabIndex = 68;
             // 
             // CB_JuevesF
             // 
             this.CB_JuevesF.FormattingEnabled = true;
-            this.CB_JuevesF.Location = new System.Drawing.Point(277, 146);
+            this.CB_JuevesF.Location = new System.Drawing.Point(246, 117);
+            this.CB_JuevesF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_JuevesF.Name = "CB_JuevesF";
-            this.CB_JuevesF.Size = new System.Drawing.Size(121, 28);
+            this.CB_JuevesF.Size = new System.Drawing.Size(108, 24);
             this.CB_JuevesF.TabIndex = 67;
             // 
             // CB_JuevesI
             // 
             this.CB_JuevesI.FormattingEnabled = true;
-            this.CB_JuevesI.Location = new System.Drawing.Point(141, 146);
+            this.CB_JuevesI.Location = new System.Drawing.Point(125, 117);
+            this.CB_JuevesI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_JuevesI.Name = "CB_JuevesI";
-            this.CB_JuevesI.Size = new System.Drawing.Size(121, 28);
+            this.CB_JuevesI.Size = new System.Drawing.Size(108, 24);
             this.CB_JuevesI.TabIndex = 66;
             // 
             // CB_MiercolesF
             // 
             this.CB_MiercolesF.FormattingEnabled = true;
-            this.CB_MiercolesF.Location = new System.Drawing.Point(277, 112);
+            this.CB_MiercolesF.Location = new System.Drawing.Point(246, 90);
+            this.CB_MiercolesF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_MiercolesF.Name = "CB_MiercolesF";
-            this.CB_MiercolesF.Size = new System.Drawing.Size(121, 28);
+            this.CB_MiercolesF.Size = new System.Drawing.Size(108, 24);
             this.CB_MiercolesF.TabIndex = 65;
             // 
             // CB_MiercolesI
             // 
             this.CB_MiercolesI.FormattingEnabled = true;
-            this.CB_MiercolesI.Location = new System.Drawing.Point(141, 110);
+            this.CB_MiercolesI.Location = new System.Drawing.Point(125, 88);
+            this.CB_MiercolesI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_MiercolesI.Name = "CB_MiercolesI";
-            this.CB_MiercolesI.Size = new System.Drawing.Size(121, 28);
+            this.CB_MiercolesI.Size = new System.Drawing.Size(108, 24);
             this.CB_MiercolesI.TabIndex = 64;
             // 
             // CB_MartesF
             // 
             this.CB_MartesF.FormattingEnabled = true;
-            this.CB_MartesF.Location = new System.Drawing.Point(277, 76);
+            this.CB_MartesF.Location = new System.Drawing.Point(246, 61);
+            this.CB_MartesF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_MartesF.Name = "CB_MartesF";
-            this.CB_MartesF.Size = new System.Drawing.Size(121, 28);
+            this.CB_MartesF.Size = new System.Drawing.Size(108, 24);
             this.CB_MartesF.TabIndex = 63;
             // 
             // CB_MartesI
             // 
             this.CB_MartesI.FormattingEnabled = true;
-            this.CB_MartesI.Location = new System.Drawing.Point(141, 76);
+            this.CB_MartesI.Location = new System.Drawing.Point(125, 61);
+            this.CB_MartesI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_MartesI.Name = "CB_MartesI";
-            this.CB_MartesI.Size = new System.Drawing.Size(121, 28);
+            this.CB_MartesI.Size = new System.Drawing.Size(108, 24);
             this.CB_MartesI.TabIndex = 62;
             // 
             // CB_LunesF
             // 
             this.CB_LunesF.FormattingEnabled = true;
-            this.CB_LunesF.Location = new System.Drawing.Point(277, 42);
+            this.CB_LunesF.Location = new System.Drawing.Point(246, 34);
+            this.CB_LunesF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_LunesF.Name = "CB_LunesF";
-            this.CB_LunesF.Size = new System.Drawing.Size(121, 28);
+            this.CB_LunesF.Size = new System.Drawing.Size(108, 24);
             this.CB_LunesF.TabIndex = 61;
             // 
             // CB_LunesI
             // 
             this.CB_LunesI.FormattingEnabled = true;
-            this.CB_LunesI.Location = new System.Drawing.Point(141, 42);
+            this.CB_LunesI.Location = new System.Drawing.Point(125, 34);
+            this.CB_LunesI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CB_LunesI.Name = "CB_LunesI";
-            this.CB_LunesI.Size = new System.Drawing.Size(121, 28);
+            this.CB_LunesI.Size = new System.Drawing.Size(108, 24);
             this.CB_LunesI.TabIndex = 60;
             // 
             // ChB_Viernes
             // 
             this.ChB_Viernes.AutoSize = true;
-            this.ChB_Viernes.Location = new System.Drawing.Point(33, 176);
+            this.ChB_Viernes.Location = new System.Drawing.Point(29, 141);
+            this.ChB_Viernes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ChB_Viernes.Name = "ChB_Viernes";
-            this.ChB_Viernes.Size = new System.Drawing.Size(89, 24);
+            this.ChB_Viernes.Size = new System.Drawing.Size(75, 20);
             this.ChB_Viernes.TabIndex = 59;
             this.ChB_Viernes.Text = "Viernes";
             this.ChB_Viernes.UseVisualStyleBackColor = true;
@@ -239,18 +269,19 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(273, 19);
+            this.label6.Location = new System.Drawing.Point(243, 15);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(110, 20);
+            this.label6.Size = new System.Drawing.Size(94, 16);
             this.label6.TabIndex = 39;
             this.label6.Text = "Fin de la clase";
             // 
             // ChB_Jueves
             // 
             this.ChB_Jueves.AutoSize = true;
-            this.ChB_Jueves.Location = new System.Drawing.Point(33, 146);
+            this.ChB_Jueves.Location = new System.Drawing.Point(29, 117);
+            this.ChB_Jueves.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ChB_Jueves.Name = "ChB_Jueves";
-            this.ChB_Jueves.Size = new System.Drawing.Size(85, 24);
+            this.ChB_Jueves.Size = new System.Drawing.Size(73, 20);
             this.ChB_Jueves.TabIndex = 58;
             this.ChB_Jueves.Text = "Jueves";
             this.ChB_Jueves.UseVisualStyleBackColor = true;
@@ -259,18 +290,19 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(137, 17);
+            this.label3.Location = new System.Drawing.Point(122, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 20);
+            this.label3.Size = new System.Drawing.Size(107, 16);
             this.label3.TabIndex = 38;
             this.label3.Text = "Inicio de la clase";
             // 
             // ChB_Miercoles
             // 
             this.ChB_Miercoles.AutoSize = true;
-            this.ChB_Miercoles.Location = new System.Drawing.Point(33, 112);
+            this.ChB_Miercoles.Location = new System.Drawing.Point(29, 90);
+            this.ChB_Miercoles.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ChB_Miercoles.Name = "ChB_Miercoles";
-            this.ChB_Miercoles.Size = new System.Drawing.Size(102, 24);
+            this.ChB_Miercoles.Size = new System.Drawing.Size(88, 20);
             this.ChB_Miercoles.TabIndex = 57;
             this.ChB_Miercoles.Text = "Miercoles";
             this.ChB_Miercoles.UseVisualStyleBackColor = true;
@@ -279,9 +311,10 @@
             // ChB_Lunes
             // 
             this.ChB_Lunes.AutoSize = true;
-            this.ChB_Lunes.Location = new System.Drawing.Point(33, 44);
+            this.ChB_Lunes.Location = new System.Drawing.Point(29, 35);
+            this.ChB_Lunes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ChB_Lunes.Name = "ChB_Lunes";
-            this.ChB_Lunes.Size = new System.Drawing.Size(79, 24);
+            this.ChB_Lunes.Size = new System.Drawing.Size(65, 20);
             this.ChB_Lunes.TabIndex = 55;
             this.ChB_Lunes.Text = "Lunes";
             this.ChB_Lunes.UseVisualStyleBackColor = true;
@@ -290,9 +323,10 @@
             // ChB_Martes
             // 
             this.ChB_Martes.AutoSize = true;
-            this.ChB_Martes.Location = new System.Drawing.Point(33, 82);
+            this.ChB_Martes.Location = new System.Drawing.Point(29, 66);
+            this.ChB_Martes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ChB_Martes.Name = "ChB_Martes";
-            this.ChB_Martes.Size = new System.Drawing.Size(84, 24);
+            this.ChB_Martes.Size = new System.Drawing.Size(70, 20);
             this.ChB_Martes.TabIndex = 56;
             this.ChB_Martes.Text = "Martes";
             this.ChB_Martes.UseVisualStyleBackColor = true;
@@ -301,28 +335,30 @@
             // Lbl_IdMateria
             // 
             this.Lbl_IdMateria.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_IdMateria.Location = new System.Drawing.Point(311, 35);
+            this.Lbl_IdMateria.Location = new System.Drawing.Point(276, 28);
             this.Lbl_IdMateria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_IdMateria.Name = "Lbl_IdMateria";
-            this.Lbl_IdMateria.Size = new System.Drawing.Size(56, 23);
+            this.Lbl_IdMateria.Size = new System.Drawing.Size(50, 18);
             this.Lbl_IdMateria.TabIndex = 19;
             this.Lbl_IdMateria.Text = "label7";
             // 
             // Cb_Prof
             // 
             this.Cb_Prof.FormattingEnabled = true;
-            this.Cb_Prof.Location = new System.Drawing.Point(216, 120);
+            this.Cb_Prof.Location = new System.Drawing.Point(192, 96);
+            this.Cb_Prof.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Cb_Prof.Name = "Cb_Prof";
-            this.Cb_Prof.Size = new System.Drawing.Size(165, 28);
+            this.Cb_Prof.Size = new System.Drawing.Size(147, 24);
             this.Cb_Prof.TabIndex = 18;
             this.Cb_Prof.SelectedIndexChanged += new System.EventHandler(this.Cb_Prof_SelectedIndexChanged);
             // 
             // Cb_Materia
             // 
             this.Cb_Materia.FormattingEnabled = true;
-            this.Cb_Materia.Location = new System.Drawing.Point(216, 59);
+            this.Cb_Materia.Location = new System.Drawing.Point(192, 47);
+            this.Cb_Materia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Cb_Materia.Name = "Cb_Materia";
-            this.Cb_Materia.Size = new System.Drawing.Size(165, 28);
+            this.Cb_Materia.Size = new System.Drawing.Size(147, 24);
             this.Cb_Materia.TabIndex = 17;
             this.Cb_Materia.SelectedIndexChanged += new System.EventHandler(this.Cb_Materia_SelectedIndexChanged);
             // 
@@ -332,45 +368,46 @@
             this.Cb_Turno.Items.AddRange(new object[] {
             "Matutino",
             "Vespertino"});
-            this.Cb_Turno.Location = new System.Drawing.Point(22, 120);
+            this.Cb_Turno.Location = new System.Drawing.Point(20, 96);
+            this.Cb_Turno.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Cb_Turno.Name = "Cb_Turno";
-            this.Cb_Turno.Size = new System.Drawing.Size(121, 28);
+            this.Cb_Turno.Size = new System.Drawing.Size(108, 24);
             this.Cb_Turno.TabIndex = 7;
             this.Cb_Turno.SelectedIndexChanged += new System.EventHandler(this.Txt_Turno_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(212, 38);
+            this.label1.Location = new System.Drawing.Point(188, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 20);
+            this.label1.Size = new System.Drawing.Size(52, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Materia";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(212, 95);
+            this.label2.Location = new System.Drawing.Point(188, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(58, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Profesor";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 38);
+            this.label5.Location = new System.Drawing.Point(16, 30);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 20);
+            this.label5.Size = new System.Drawing.Size(65, 16);
             this.label5.TabIndex = 9;
             this.label5.Text = "Semestre";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 96);
+            this.label4.Location = new System.Drawing.Point(16, 77);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
+            this.label4.Size = new System.Drawing.Size(42, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "Turno";
             // 
@@ -384,9 +421,10 @@
             "4",
             "5",
             "6"});
-            this.Cb_Semestre.Location = new System.Drawing.Point(22, 61);
+            this.Cb_Semestre.Location = new System.Drawing.Point(20, 49);
+            this.Cb_Semestre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Cb_Semestre.Name = "Cb_Semestre";
-            this.Cb_Semestre.Size = new System.Drawing.Size(121, 28);
+            this.Cb_Semestre.Size = new System.Drawing.Size(108, 24);
             this.Cb_Semestre.TabIndex = 8;
             this.Cb_Semestre.SelectedIndexChanged += new System.EventHandler(this.Txt_Semestre_SelectedIndexChanged);
             // 
@@ -398,18 +436,21 @@
             this.Gb_Acciones.Controls.Add(this.Btn_Actualizar);
             this.Gb_Acciones.Controls.Add(this.Btn_Modificar);
             this.Gb_Acciones.Controls.Add(this.Btn_Agregar);
-            this.Gb_Acciones.Location = new System.Drawing.Point(1070, 498);
+            this.Gb_Acciones.Location = new System.Drawing.Point(951, 398);
+            this.Gb_Acciones.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Gb_Acciones.Name = "Gb_Acciones";
-            this.Gb_Acciones.Size = new System.Drawing.Size(248, 192);
+            this.Gb_Acciones.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Gb_Acciones.Size = new System.Drawing.Size(220, 154);
             this.Gb_Acciones.TabIndex = 19;
             this.Gb_Acciones.TabStop = false;
             this.Gb_Acciones.Text = "Acciones";
             // 
             // Btn_Cancelar
             // 
-            this.Btn_Cancelar.Location = new System.Drawing.Point(125, 128);
+            this.Btn_Cancelar.Location = new System.Drawing.Point(111, 102);
+            this.Btn_Cancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Cancelar.Name = "Btn_Cancelar";
-            this.Btn_Cancelar.Size = new System.Drawing.Size(113, 41);
+            this.Btn_Cancelar.Size = new System.Drawing.Size(100, 33);
             this.Btn_Cancelar.TabIndex = 17;
             this.Btn_Cancelar.Text = "Cancelar";
             this.Btn_Cancelar.UseVisualStyleBackColor = true;
@@ -417,9 +458,10 @@
             // 
             // Btn_Nuevo
             // 
-            this.Btn_Nuevo.Location = new System.Drawing.Point(6, 35);
+            this.Btn_Nuevo.Location = new System.Drawing.Point(5, 28);
+            this.Btn_Nuevo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Nuevo.Name = "Btn_Nuevo";
-            this.Btn_Nuevo.Size = new System.Drawing.Size(113, 41);
+            this.Btn_Nuevo.Size = new System.Drawing.Size(100, 33);
             this.Btn_Nuevo.TabIndex = 16;
             this.Btn_Nuevo.Text = "Nuevo";
             this.Btn_Nuevo.UseVisualStyleBackColor = true;
@@ -427,9 +469,10 @@
             // 
             // Btn_Eliminar
             // 
-            this.Btn_Eliminar.Location = new System.Drawing.Point(6, 128);
+            this.Btn_Eliminar.Location = new System.Drawing.Point(5, 102);
+            this.Btn_Eliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Eliminar.Name = "Btn_Eliminar";
-            this.Btn_Eliminar.Size = new System.Drawing.Size(113, 41);
+            this.Btn_Eliminar.Size = new System.Drawing.Size(100, 33);
             this.Btn_Eliminar.TabIndex = 15;
             this.Btn_Eliminar.Text = "Eliminar";
             this.Btn_Eliminar.UseVisualStyleBackColor = true;
@@ -437,9 +480,10 @@
             // 
             // Btn_Actualizar
             // 
-            this.Btn_Actualizar.Location = new System.Drawing.Point(125, 81);
+            this.Btn_Actualizar.Location = new System.Drawing.Point(111, 65);
+            this.Btn_Actualizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Actualizar.Name = "Btn_Actualizar";
-            this.Btn_Actualizar.Size = new System.Drawing.Size(113, 41);
+            this.Btn_Actualizar.Size = new System.Drawing.Size(100, 33);
             this.Btn_Actualizar.TabIndex = 14;
             this.Btn_Actualizar.Text = "Actualizar";
             this.Btn_Actualizar.UseVisualStyleBackColor = true;
@@ -447,9 +491,10 @@
             // 
             // Btn_Modificar
             // 
-            this.Btn_Modificar.Location = new System.Drawing.Point(6, 81);
+            this.Btn_Modificar.Location = new System.Drawing.Point(5, 65);
+            this.Btn_Modificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Modificar.Name = "Btn_Modificar";
-            this.Btn_Modificar.Size = new System.Drawing.Size(113, 41);
+            this.Btn_Modificar.Size = new System.Drawing.Size(100, 33);
             this.Btn_Modificar.TabIndex = 13;
             this.Btn_Modificar.Text = "Modificar";
             this.Btn_Modificar.UseVisualStyleBackColor = true;
@@ -457,9 +502,10 @@
             // 
             // Btn_Agregar
             // 
-            this.Btn_Agregar.Location = new System.Drawing.Point(125, 34);
+            this.Btn_Agregar.Location = new System.Drawing.Point(111, 27);
+            this.Btn_Agregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Agregar.Name = "Btn_Agregar";
-            this.Btn_Agregar.Size = new System.Drawing.Size(113, 41);
+            this.Btn_Agregar.Size = new System.Drawing.Size(100, 33);
             this.Btn_Agregar.TabIndex = 12;
             this.Btn_Agregar.Text = "Agregar";
             this.Btn_Agregar.UseVisualStyleBackColor = true;
@@ -469,31 +515,39 @@
             // 
             this.Dgv_Clases.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.Dgv_Clases.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgv_Clases.Location = new System.Drawing.Point(12, 12);
+            this.Dgv_Clases.Location = new System.Drawing.Point(11, 10);
+            this.Dgv_Clases.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Dgv_Clases.Name = "Dgv_Clases";
             this.Dgv_Clases.RowHeadersWidth = 62;
             this.Dgv_Clases.RowTemplate.Height = 28;
-            this.Dgv_Clases.Size = new System.Drawing.Size(1336, 453);
+            this.Dgv_Clases.Size = new System.Drawing.Size(1188, 362);
             this.Dgv_Clases.TabIndex = 22;
             // 
-            // Lbl_IdProfe
+            // label8
             // 
-            this.Lbl_IdProfe.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_IdProfe.Location = new System.Drawing.Point(311, 95);
-            this.Lbl_IdProfe.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl_IdProfe.Name = "Lbl_IdProfe";
-            this.Lbl_IdProfe.Size = new System.Drawing.Size(56, 23);
-            this.Lbl_IdProfe.TabIndex = 23;
-            this.Lbl_IdProfe.Text = "label7";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(15, 129);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(101, 16);
+            this.label8.TabIndex = 25;
+            this.label8.Text = "Salón o Modulo";
+            // 
+            // Txt_Salon
+            // 
+            this.Txt_Salon.Location = new System.Drawing.Point(20, 149);
+            this.Txt_Salon.Name = "Txt_Salon";
+            this.Txt_Salon.Size = new System.Drawing.Size(108, 22);
+            this.Txt_Salon.TabIndex = 26;
             // 
             // Crear_Clase
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1367, 1102);
+            this.ClientSize = new System.Drawing.Size(1215, 882);
             this.Controls.Add(this.Dgv_Clases);
             this.Controls.Add(this.Gb_Datos);
             this.Controls.Add(this.Gb_Acciones);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Crear_Clase";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -550,5 +604,7 @@
         private System.Windows.Forms.ComboBox CB_LunesI;
         private System.Windows.Forms.DataGridView Dgv_Clases;
         private System.Windows.Forms.Label Lbl_IdProfe;
+        private System.Windows.Forms.TextBox Txt_Salon;
+        private System.Windows.Forms.Label label8;
     }
 }

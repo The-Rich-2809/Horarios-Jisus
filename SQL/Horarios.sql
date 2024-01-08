@@ -28,6 +28,7 @@ Semestre INT NOT NULL,
 Turno NVARCHAR (10) NOT NULL,
 NumGrupo INT NOT NULL,
 Grupo NVARCHAR (5) NOT NULL,
+Salon NVARCHAR (max) NOT NULL,
 Materia NVARCHAR (20) NOT NULL,
 Profesor NVARCHAR (50) NOT NULL,
 LunesI NVARCHAR (5) NOT NULL,
@@ -42,9 +43,9 @@ ViernesI NVARCHAR (5) NOT NULL,
 ViernesF NVARCHAR (5) NOT NULL)
 Go
 Insert Into Clases Values
-('1IV1101','1','Vespertino','1','1IV1','ÁLGEBRA','JUAN JOSE BELTRAN CORONA','18:00','19:00','18:00','19:00','18:00','19:00','18:00','19:00','19:00','20:00'),
-('3IV1301','3','Vespertino','1','3IV1','GEOMETRIA ANALITICA','HECTOR MANUEL MENDOZA QUIROZ','','','21:00','22:00','21:00','22:00','21:00','22:00','21:00','22:00'),
-('5IV11501','5','Vespertino','11','5IV11','CALCULO INTEGRAL','JESUS GUTIERREZ MORAN','','','20:00','21:00','16:00','17:00','19:00','21:00','','')
+--('1IV1101','1','Vespertino','1','1IV1','ÁLGEBRA','JUAN JOSE BELTRAN CORONA','18:00','19:00','18:00','19:00','18:00','19:00','18:00','19:00','19:00','20:00'),
+--('3IV1301','3','Vespertino','1','3IV1','GEOMETRIA ANALITICA','HECTOR MANUEL MENDOZA QUIROZ','','','21:00','22:00','21:00','22:00','21:00','22:00','21:00','22:00'),
+('5IV11501','5','Vespertino','11','5IV11','salon10','CALCULO INTEGRAL','JESUS GUTIERREZ MORAN','','','20:00','21:00','16:00','17:00','19:00','21:00','','')
 Go
 
 Create Table Profesores

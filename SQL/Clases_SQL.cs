@@ -170,7 +170,7 @@ namespace Proyecto_Final.SQL
             {
                 SqlCommand Consulta;
                 int resultado = 0;
-                string SentenciaSQL = @"Insert Into Clases Values (@IdClase,@Semestre,@Turno,@NumGrupo,@Grupo,@Materia,@Profesor,@LunesI,@LunesF,@MartesI,@MartesF,@MiercolesI,@MiercolesF,@JuevesI,@JuevesF,@ViernesI,@ViernesF)";
+                string SentenciaSQL = @"Insert Into Clases Values (@IdClase,@Semestre,@Turno,@NumGrupo,@Grupo,@Salon,@Materia,@Profesor,@LunesI,@LunesF,@MartesI,@MartesF,@MiercolesI,@MiercolesF,@JuevesI,@JuevesF,@ViernesI,@ViernesF)";
                 Consulta = new SqlCommand(SentenciaSQL, conexion);
 
                 Consulta.Parameters.AddWithValue("@IdClase", clase.IdClase);
@@ -178,6 +178,7 @@ namespace Proyecto_Final.SQL
                 Consulta.Parameters.AddWithValue("@Turno", clase.Turno);
                 Consulta.Parameters.AddWithValue("@NumGrupo", clase.NumGrupo);
                 Consulta.Parameters.AddWithValue("@Grupo", clase.Grupo);
+                Consulta.Parameters.AddWithValue("@Salon", clase.Salon);
                 Consulta.Parameters.AddWithValue("@Materia", clase.Materia);
                 Consulta.Parameters.AddWithValue("@Profesor", clase.Profesor);
                 Consulta.Parameters.AddWithValue("@LunesI", clase.LunesI);
