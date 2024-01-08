@@ -1,0 +1,84 @@
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.csproj.AssemblyReference.cache
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.csproj.SuggestedBindingRedirects.cache
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.Forms.Admin.resources
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.Forms.Alumno.resources
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.Forms.Crear_Clase.resources
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.Forms.Crear_Materia.resources
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.Forms.Crear_Prof.resources
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.Forms.Crear_User.resources
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.Iniciar_Sesion.resources
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.Properties.Resources.resources
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.csproj.GenerateResource.cache
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.csproj.CoreCompileInputs.cache
+C:\Users\ricar\Documents\GitHub\Horarios\bin\Debug\Proyecto_Final.exe.config
+C:\Users\ricar\Documents\GitHub\Horarios\bin\Debug\Proyecto_Final.exe
+C:\Users\ricar\Documents\GitHub\Horarios\bin\Debug\Proyecto_Final.pdb
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.exe
+C:\Users\ricar\Documents\GitHub\Horarios\obj\Debug\Proyecto_Final.pdb
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\bin\Debug\Proyecto_Final.exe.config
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\bin\Debug\Proyecto_Final.exe
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\bin\Debug\Proyecto_Final.pdb
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.csproj.AssemblyReference.cache
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.csproj.SuggestedBindingRedirects.cache
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.Forms.Admin.resources
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.Forms.Alumno.resources
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.Forms.Crear_Clase.resources
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.Forms.Crear_Materia.resources
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.Forms.Crear_Prof.resources
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.Forms.Crear_User.resources
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.Iniciar_Sesion.resources
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.Properties.Resources.resources
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.csproj.GenerateResource.cache
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.csproj.CoreCompileInputs.cache
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.exe
+C:\Users\ricar\Documents\0_Proyecto Final\Nueva carpeta\obj\Debug\Proyecto_Final.pdb
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\bin\Debug\Proyecto_Final.exe.config
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\bin\Debug\Proyecto_Final.exe
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\bin\Debug\Proyecto_Final.pdb
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.csproj.AssemblyReference.cache
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.Forms.Admin.resources
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.Forms.Alumno.resources
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.Forms.Crear_Clase.resources
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.Forms.Crear_Materia.resources
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.Forms.Crear_Prof.resources
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.Forms.Crear_User.resources
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.Iniciar_Sesion.resources
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.Properties.Resources.resources
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.csproj.GenerateResource.cache
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.csproj.CoreCompileInputs.cache
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.exe
+C:\Users\ricar\Downloads\Equipos S&P\Horarios-main\obj\Debug\Proyecto_Final.pdb
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\bin\Debug\Proyecto_Final.exe.config
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\bin\Debug\Proyecto_Final.exe
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\bin\Debug\Proyecto_Final.pdb
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.csproj.AssemblyReference.cache
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Forms.Admin.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Forms.Alumno.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Forms.Crear_Clase.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Forms.Crear_Materia.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Forms.Crear_Prof.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Forms.Crear_User.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Iniciar_Sesion.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Properties.Resources.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.csproj.GenerateResource.cache
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.csproj.CoreCompileInputs.cache
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.exe
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.pdb
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\obj\Debug\Proyecto_Final.Forms.Prefecto.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\bin\Debug\Proyecto_Final.exe.config
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\bin\Debug\Proyecto_Final.exe
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\bin\Debug\Proyecto_Final.pdb
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.csproj.AssemblyReference.cache
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Forms.Admin.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Forms.Alumno.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Forms.Crear_Clase.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Forms.Crear_Materia.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Forms.Crear_Prof.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Forms.Crear_User.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Iniciar_Sesion.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Forms.Prefecto.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.Properties.Resources.resources
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.csproj.GenerateResource.cache
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.csproj.CoreCompileInputs.cache
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.exe
+C:\Users\ricar\OneDrive\Documentos\Github\Horarios-Jisus\Proyecto_Final\obj\Debug\Proyecto_Final.pdb

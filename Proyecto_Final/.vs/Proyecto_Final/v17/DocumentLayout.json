@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\sql\\horarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:sql\\horarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\sql\\alumno_sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:sql\\alumno_sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\prefecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\prefecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\crear_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\crear_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\crear_clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\crear_clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\crear_materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\crear_materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\crear_prof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\crear_prof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\crear_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\crear_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\forms\\iniciar_sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:forms\\iniciar_sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\sql\\horarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:sql\\horarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|c:\\users\\ricar\\onedrive\\documentos\\github\\horarios-jisus\\proyecto_final\\sql\\horarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{23F53B2A-C66C-4183-96A7-FCDF23E7FF89}|Proyecto_Final.csproj|solutionrelative:sql\\horarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Horarios.sql ",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\SQL\\Horarios.sql",
+              "RelativeDocumentMoniker": "SQL\\Horarios.sql",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\SQL\\Horarios.sql",
+              "RelativeToolTip": "SQL\\Horarios.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-01-08T07:06:44.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Alumno_SQL.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\SQL\\Alumno_SQL.cs",
+              "RelativeDocumentMoniker": "SQL\\Alumno_SQL.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\SQL\\Alumno_SQL.cs",
+              "RelativeToolTip": "SQL\\Alumno_SQL.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:50:35.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Alumno.cs",
+              "RelativeDocumentMoniker": "Forms\\Alumno.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Alumno.cs",
+              "RelativeToolTip": "Forms\\Alumno.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAAwAUBAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:50:06.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Crear_User.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_User.cs",
+              "RelativeDocumentMoniker": "Forms\\Crear_User.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_User.cs",
+              "RelativeToolTip": "Forms\\Crear_User.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAASwFcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:42:10.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Prefecto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Prefecto.cs",
+              "RelativeDocumentMoniker": "Forms\\Prefecto.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Prefecto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Prefecto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:41:00.262Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Crear_User.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_User.cs",
+              "RelativeDocumentMoniker": "Forms\\Crear_User.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_User.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Crear_User.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:40:42.152Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Crear_Prof.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_Prof.cs",
+              "RelativeDocumentMoniker": "Forms\\Crear_Prof.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_Prof.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Crear_Prof.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:40:33.23Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Crear_Materia.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_Materia.cs",
+              "RelativeDocumentMoniker": "Forms\\Crear_Materia.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_Materia.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Crear_Materia.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:40:19.905Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Crear_Clase.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_Clase.cs",
+              "RelativeDocumentMoniker": "Forms\\Crear_Clase.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Crear_Clase.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Crear_Clase.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:40:18.283Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alumno.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Alumno.cs",
+              "RelativeDocumentMoniker": "Forms\\Alumno.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Alumno.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Alumno.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:40:02.317Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Admin.cs",
+              "RelativeDocumentMoniker": "Forms\\Admin.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Admin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Admin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T06:40:00.061Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Iniciar_Sesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Iniciar_Sesion.cs",
+              "RelativeDocumentMoniker": "Forms\\Iniciar_Sesion.cs",
+              "ToolTip": "C:\\Users\\ricar\\OneDrive\\Documentos\\Github\\Horarios-Jisus\\Proyecto_Final\\Forms\\Iniciar_Sesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Iniciar_Sesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-08T05:39:43.483Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
